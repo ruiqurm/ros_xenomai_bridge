@@ -2,9 +2,9 @@
 #include "sensor_msgs/LaserScan.h"
 #include "nav_msgs/Odometry.h"
 #include "std_msgs/String.h"
-#include "xddp_ros.h"
-#include "ChatterXddp.h"
-#include "ListenerXddp.h"
+#include "xddp_utilities/xddp_ros.h"
+#include "xddp_utilities/ChatterXddp.h"
+#include "xddp_utilities/ListenerXddp.h"
 
 #define XDDP_PORT_LASER 0
 #define XDDP_PORT_ODOM  1

@@ -40,6 +40,6 @@ install(
 )
 
 install(
-  DIRECTORY include/${PROJECT_NAME}
+  DIRECTORY include/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
